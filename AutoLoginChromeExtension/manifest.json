@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "自动登录校园网",
+    "version": "1.0",
+    "description": "自动登录校园网",
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": ["*://223.2.10.172/eportal/index.jsp*"],
+            "js": ["js/inject.js"]
+        }
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "web_accessible_resources": ["js/injected.js"]
+}
