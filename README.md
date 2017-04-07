@@ -5,13 +5,13 @@
 
 1. 以 GBK 编码方式打开 AutoLoginChromeExtension/js/injected.js 文件，在图中加框部分分别加入你的校园网用户名和密码。
 
-![Capture1](/images/Capture1.jpg)
+![Capture1](/images/Capture1.JPG)
 
 2. 在 Chrome 的“扩展程序”页面（chrome://extensions/）打开“开发者模式”。
 
 3. 单击“打包扩展程序”，根目录选择 AutoLoginChromeExtension 这个目录，私钥留空，然后打包。
 
-![Capture2](/images/Capture2.jpg)
+![Capture2](/images/Capture2.JPG)
 
 4. 打包完成后可以在 NnuStuAutoLogin 目录下发现打包后的2个文件，将其中的 AutoLoginChromeExtension.crx 文件拖入 Chrome 的扩展程序页面，在提示框中单击“添加扩展程序”。
 
@@ -26,18 +26,18 @@
 
 在“触发器”选项卡添加一个触发器： 
 
-![Capture3](/images/Capture3.jpg)
+![Capture3](/images/Capture3.JPG)
 
 在“动作”选项卡添加要执行的脚本 NnuStuAutoReconnect.bat： 
 
-![Capture4](/images/Capture4.jpg)
+![Capture4](/images/Capture4.JPG)
 
-![Capture5](/images/Capture5.jpg)
+![Capture5](/images/Capture5.JPG)
 
 “条件”选项卡取消勾选“仅连接交流电源时运行任务”：
 
-![Capture6](/images/Capture6.jpg)
+![Capture6](/images/Capture6.JPG)
 
 “设置”选项卡：
 
-![Capture7](/images/Capture7.jpg)
+![Capture7](/images/Capture7.JPG)
