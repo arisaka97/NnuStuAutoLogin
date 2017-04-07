@@ -1,5 +1,8 @@
 # NnuStuAutoLogin
+
 用于自动登录南师大校园网的 Chrome 插件和自动重连 nnu_stu 的脚本，适用于需要在晚上下载文件的同学。
+
+下载请点击右上角 “Clone or download” -- “Download ZIP”。
 
 ## Chrome 插件的使用方法
 
@@ -13,7 +16,7 @@
 
 ![Capture2](/images/Capture2.JPG)
 
-4. 打包完成后可以在 NnuStuAutoLogin 目录下发现打包后的2个文件，将其中的 AutoLoginChromeExtension.crx 文件拖入 Chrome 的扩展程序页面，在提示框中单击“添加扩展程序”。
+4. 打包完成后可以在 NnuStuAutoLogin 目录下找到打包后的2个文件，将其中的 AutoLoginChromeExtension.crx 文件拖入 Chrome 的扩展程序页面，在提示框中单击“添加扩展程序”。
 
 5. 解决非应用商店的 Chrome 扩展程序强制停用问题，参考这贴：http://tieba.baidu.com/p/3091171066  
 注：该方法使用了本地组策略编辑器，该组件并不包含在 Windows10 家庭版中。
